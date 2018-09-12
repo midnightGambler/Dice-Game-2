@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Game 2</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+</head>
+<body>
+	<div id="winnerScore">
+		<div id="winnerScore_wrap">
+			<input placeholder="Enter the winning score..." type="text" name="">
+			<button id="play">PLAY!</button>
+		</div>
+	</div>
+	<div id="wrap">
+		<h1>DICE GAME BY ASHUR</h1>
+		<div id="player_0" class="active">
+			<div id="player_0_intf">
+				<div id="current_score">
+					<h2 id="player_0_ID" class="active">PLAYER 1</h2>
+					<p id="current_score_0">21</p>
+				</div>
+				<div id="total_score">
+					<p>SCORE:<br><span id="total_score_0">23</span></p>
+				</div>
+			</div>
+		</div>
+		<div id="player_1" >
+			<div id="player_0_intf">
+				<div id="current_score">
+					<h2 id="player_1_ID">PLAYER 2</h2>
+					<p id="current_score_1">12</p>
+				</div>
+				<div id="total_score">
+					<p>SCORE:<br><span id="total_score_1">32</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<img id="dice-img" src="img/Dice-4.png">
+	<div class="buttons">
+		<button id="roll">ROLL THE DICE</button>
+		<button id="hold">HOLD</button>
+		<button id="newGame">NEW GAME</button>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

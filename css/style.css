@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+#wrap {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+}
+
+#player_0, #player_1{
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#player_0_intf {
+	text-align: center;
+	/*border: 2px solid red;*/
+	height: 65vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#current_score {
+	font-size: 3vw;
+    font-weight: 300;
+}
+
+#current_score p {
+	font-size: 5vw;
+	margin-top: 2vh;
+}
+
+h2 {
+	font-size: 3vw;
+	color: #e12020;
+	letter-spacing: 0.5vw;
+	font-weight: 300;
+}
+
+#player_1 {
+	width: 50vw;
+	height: 100vh;
+}
+
+#total_score {
+	background-color: #ff8484;
+	width: 75%;
+	color: #fff;
+}
+
+#total_score p {
+	font-size: 1.3vmax;
+	padding: 10px 20px 20px 20px;
+}
+
+#total_score span {
+	font-size: 4vmax;
+}
+
+
+.active {
+	font-size: 4vmax;
+	font-weight: 700;
+	background-color: #ffefef;
+	transition: 0.3s;
+}
+
+img {
+	width: 10vw;
+	position: relative;
+	left: 45%;
+	margin-top: 35vh;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	left: 44vw;
+	top: 62vh;
+	width: 12vw;
+}
+
+button {
+	cursor: pointer;
+	margin: 0.5vh;
+	padding: 1vh;
+	font-size: 1.2vmax;
+	font-weight: 700;
+	color: #ff8484;
+	height: 25%;
+	width: 100%;
+	background: transparent;
+	border: 1px solid #ff8484;
+	transition: 0.3s;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #ff8484;
+}
+
+h1 {
+	padding-top: 20px;
+	position: absolute;
+	width: 100vw;
+	text-align: center;
+	/*border: 2px solid red;*/
+	color: #e12020;
+	letter-spacing: 1vw;
+	font-weight: 700;
+}
+
+#winnerScore {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#winnerScore_wrap {
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 100vh;
+	align-items: center;
+}
+
+#play {
+	width: 5vw;
+	height: 5.38vh;
+	font-weight: 700;
+	color: #ff8484;
+	text-transform: uppercase;
+	height: unset;
+	padding: 1.5;
+}
+
+#play:hover {
+	color: #fff;
+	background-color: #ff8484;
+}
+
+#winnerScore input {
+	padding: 1.5vh;
+	width: 20vw;
+	border: 1px solid #ff8484;
+	font-size: 1.2vmax;
+	font-weight: 700;
+	color: #ff8484;
+	text-transform: uppercase;
+}
+
+input::placeholder {
+	color: #ff8484;
+}
